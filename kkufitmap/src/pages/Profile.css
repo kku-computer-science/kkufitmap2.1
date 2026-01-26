@@ -1,0 +1,99 @@
+/* src/pages/Profile.css */
+
+/* ส่วน Header สีเขียว */
+.profile-toolbar {
+  --background: #00da4a; /* สีเขียวสว่างตามรูป */
+  --color: white;
+}
+
+.profile-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* ส่วนรูปโปรไฟล์ */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.avatar-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #00da4a; /* ขอบสีเขียว */
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  margin: 5px 0 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-role {
+  margin: 0;
+  color: #00da4a;
+  font-weight: 600;
+}
+
+/* ส่วนสถิติ (Stats) */
+.stats-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 15px 5px;
+  text-align: center;
+  margin: 5px;
+}
+
+.stat-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #888;
+  text-transform: uppercase;
+  margin-top: 5px;
+  display: block;
+}
+
+.stat-icon {
+  font-size: 1.5rem;
+  color: #00da4a;
+  margin-bottom: 5px;
+}
+
+/* ส่วนเมนูรายการ */
+.menu-list {
+  margin-top: 20px;
+  background: transparent;
+}
+
+.menu-item {
+  --padding-start: 20px;
+  --inner-padding-end: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  --background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.menu-icon {
+  margin-right: 15px;
+}

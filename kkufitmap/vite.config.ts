@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     legacy()
   ],
+  base: '/kkufitmap2/',
   test: {
     globals: true,
     environment: 'jsdom',
